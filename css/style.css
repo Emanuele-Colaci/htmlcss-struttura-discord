@@ -8,7 +8,7 @@
     display: flex;
     padding: 10px;
     background-color: #add8e6;
-    justify-content: space-around;
+    justify-content: center;
 }
 /* INIZIO PRIMA SEZIONE */
 .cols{
@@ -18,7 +18,7 @@
 }
 
 .col-20{
-    width: 20%;
+    width: 25%;
 }
 
 .col-50{
@@ -39,3 +39,25 @@
 }
 /* FINE PRIMA SEZIONE */
 
+/* INIZIO SECONDA SEZIONE */
+.container1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 113);
+    height: 250px;
+    padding: 15px;
+}
+
+.col-40{
+    display: flex;
+    width: 40%;
+    border: dashed 1px black;
+    background-color: #ee82ee;
+}
+
+
+/* FINE SECONDA SEZIONE */
+
+/* INIZIO TERZA SEZIONE */
+
+/* FINE TERZA SEZIONE */

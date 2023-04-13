@@ -4,26 +4,30 @@
     box-sizing: border-box;
 }
 
-body{
-    max-width: 1280px;
-}
-
 .container{
     display: flex;
     padding: 10px;
     background-color: #add8e6;
     justify-content: space-around;
 }
-
+/* INIZIO PRIMA SEZIONE */
 .cols{
     border: dashed 1px black;
     background-color: orange;
-    width: 300px;
-    padding: 3px;
+    width: calc(100% / 3);
+}
+
+.col-20{
+    width: 20%;
+}
+
+.col-50{
+    width: 50%;
 }
 
 .row{
     display: flex;
+    width: 50%;
 }
 
 .link{
@@ -33,4 +37,5 @@ body{
 .login{
     text-align: end;
 }
+/* FINE PRIMA SEZIONE */
 

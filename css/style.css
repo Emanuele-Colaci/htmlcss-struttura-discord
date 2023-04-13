@@ -59,5 +59,45 @@
 /* FINE SECONDA SEZIONE */
 
 /* INIZIO TERZA SEZIONE */
+.container2{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    padding: 15px;
+}
 
+.cols2{
+    border: dashed 1px black;
+    display: flex;
+}
+
+.col-31{
+    width: 31%;
+    background-color: #1e90ff;
+}
+
+.col-21{
+    width: 21%;
+    background-color: #ffc0cb;
+}
 /* FINE TERZA SEZIONE */
+
+/* INIZIO QUARTA SEZIONE */
+.container3{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(194, 194, 194);
+}
+
+.col-31-pink{
+    width: 31%;
+    background-color: #ffc0cb;
+}
+
+.col-21-blue{
+    width: 21%;
+    background-color: #1e90ff;
+}
+/* FINE QUARTA SEZIONE */

@@ -8,13 +8,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* INIZIO HEADER */
 .container{
     display: flex;
     padding: 10px;
     background-color: #add8e6;
     justify-content: center;
 }
-/* INIZIO HEADER */
+
 .cols{
     border: dashed 1px black;
     background-color: orange;
@@ -24,12 +25,10 @@ body{
 }
 
 .link{
-    display: flex;
     justify-content: center;
 }
 
 .login{
-    display: flex;
     justify-content: flex-end;
 }
 
@@ -149,6 +148,9 @@ body{
 }
 /* FINE QUINTA SEZIONE */
 
+
+/* INIZIO FOOTER */
+
 /* INIZIO SESTA SEZIONE */
 .container5{
     display: flex;
@@ -177,7 +179,6 @@ body{
 }
 /* FINE SESTA SEZIONE */
 
-/* INIZIO FOOTER */
 .container6{
     padding-top: 10px;
     background-color: #23272a;
